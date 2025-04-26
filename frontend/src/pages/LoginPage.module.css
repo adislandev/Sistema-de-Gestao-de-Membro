@@ -1,0 +1,61 @@
+/* LoginPage.module.css */
+
+.loginContainer {
+  min-height: 100vh; /* Ocupa toda a altura da tela */
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  padding: 20px;
+
+  /* --- Background com Imagem --- */
+  /* Usa a imagem fornecida pelo usuário na pasta /public */
+  background-image: url('/backgroundlogin.jpg'); 
+  background-size: cover; /* Cobre toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat;
+
+  /* Opcional: Sobreposição escura para melhor contraste */
+  /* position: relative; */
+}
+
+/* Opcional: Estilo para a sobreposição */
+/*
+.loginContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); // Ajuste a opacidade (último valor)
+  z-index: 1; 
+}
+*/
+
+.loginCard {
+  background-color: white;
+  padding: 2.5rem 2rem; /* Mais padding */
+  border-radius: 15px; /* Cantos mais arredondados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
+  max-width: 420px; /* Largura máxima do card */
+  width: 100%;
+  text-align: center; /* Centraliza texto e ícone dentro do card */
+  
+  /* Opcional: Para garantir que fique acima da sobreposição */
+  /* position: relative; */
+  /* z-index: 2; */
+}
+
+.loginIcon {
+  font-size: 2.5rem; /* Tamanho do ícone da cruz */
+  color: #6f42c1; /* Cor roxa (exemplo, ajuste conforme necessário) */
+  margin-bottom: 1.5rem;
+}
+
+/* Estilos adicionais para formulário (podem ir em LoginForm.module.css) */
+.loginCard h2 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+/* Ajustes específicos para o LoginForm se necessário */ 

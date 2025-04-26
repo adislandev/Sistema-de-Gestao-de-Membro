@@ -1,0 +1,61 @@
+/* Navbar.module.css */
+
+/* Estilo base da Navbar */
+.customNavbar {
+  /* Fundo escuro - ajuste a cor se desejar um roxo/azul específico */
+  /* O bg="dark" variant="dark" do react-bootstrap já ajuda */
+  /* background-color: #212529; */ 
+}
+
+/* Estilo dos links principais */
+.customNavbar .nav-link {
+  color: rgba(255, 255, 255, 0.75); /* Cor padrão do texto (branco suave) */
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border-radius: 4px;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Efeito Hover nos links principais */
+.customNavbar .nav-link:hover {
+  color: #ffffff; /* Texto mais branco */
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo sutil no hover */
+  transform: translateY(-2px); /* Leve movimento para cima */
+}
+
+/* Estilo do link ativo (pode precisar ajustar dependendo de como o react-router adiciona a classe 'active') */
+.customNavbar .nav-link.active {
+  color: #ffc107; /* Cor amarela para ativo */
+  font-weight: bold;
+  background-color: transparent; /* Remove fundo do hover se estiver ativo */
+  transform: none; /* Remove movimento se estiver ativo */
+}
+
+/* Estilo para o Dropdown Toggle (ícone + nome) */
+.dropdownToggle {
+    color: rgba(255, 255, 255, 0.75) !important; /* Cor do texto e ícone */
+    text-decoration: none !important; /* Remove sublinhado do link */
+    padding: 0.5rem; 
+    border-radius: 4px;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.dropdownToggle:hover {
+    color: #ffffff !important; /* Cor mais branca no hover */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Opcional: Ajustar o menu dropdown para tema escuro se necessário */
+/* .customNavbar .dropdown-menu { */
+  /* background-color: #343a40; */
+  /* border-color: rgba(255, 255, 255, 0.15); */
+/* } */
+/* .customNavbar .dropdown-item { */
+  /* color: rgba(255, 255, 255, 0.75); */
+/* } */
+/* .customNavbar .dropdown-item:hover { */
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  /* color: #ffffff; */
+/* } */
+
+/* Linha abaixo será removida */
