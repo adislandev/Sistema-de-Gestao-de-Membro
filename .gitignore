@@ -1,0 +1,52 @@
+# Arquivo gerado automaticamente
+
+# Dependências e Builds
+## Backend (Node.js)
+backend/node_modules/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/.env
+backend/coverage/
+
+## Frontend (Vite/React)
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/coverage/
+frontend/.pnp
+frontend/.pnp.js
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs/Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos de Log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Outros
+.tmp
+*.bak
+*.temp
+.eslintcache
+
+# Arquivos específicos do Cursor (se aplicável)
+.cursor/ 
